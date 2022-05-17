@@ -1,0 +1,22 @@
+2022-05-17 22:53:34,058 INFO    MainThread:115636 [wandb_setup.py:_flush():69] setting env: {'run_group': 'dev', 'project': 'genre_classification_prod'}
+2022-05-17 22:53:34,058 INFO    MainThread:115636 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-05-17 22:53:34,059 INFO    MainThread:115636 [wandb_init.py:_log_setup():334] Logging user logs to /home/tdk/codes/courses/mlops_udacity/course_2/udacity_pipeline_exercise_14/genre_classification/download/wandb/run-20220517_225334-19dbzqxp/logs/debug.log
+2022-05-17 22:53:34,059 INFO    MainThread:115636 [wandb_init.py:_log_setup():335] Logging internal logs to /home/tdk/codes/courses/mlops_udacity/course_2/udacity_pipeline_exercise_14/genre_classification/download/wandb/run-20220517_225334-19dbzqxp/logs/debug-internal.log
+2022-05-17 22:53:34,060 INFO    MainThread:115636 [wandb_init.py:init():367] calling init triggers
+2022-05-17 22:53:34,061 INFO    MainThread:115636 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2022-05-17 22:53:34,061 INFO    MainThread:115636 [wandb_init.py:init():416] starting backend
+2022-05-17 22:53:34,062 INFO    MainThread:115636 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-05-17 22:53:34,064 WARNING MainThread:115636 [wandb_init.py:init():763] interrupted
+Traceback (most recent call last):
+  File "/home/tdk/anaconda3/envs/mlflow-dcab57294d4c8d8af89cb670ca7f21a98adaaf45/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 743, in init
+    run = wi.init()
+  File "/home/tdk/anaconda3/envs/mlflow-dcab57294d4c8d8af89cb670ca7f21a98adaaf45/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 419, in init
+    backend.ensure_launched()
+  File "/home/tdk/anaconda3/envs/mlflow-dcab57294d4c8d8af89cb670ca7f21a98adaaf45/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 79, in ensure_launched
+    settings = dict(self._settings or ())
+  File "/home/tdk/anaconda3/envs/mlflow-dcab57294d4c8d8af89cb670ca7f21a98adaaf45/lib/python3.8/site-packages/wandb/sdk/wandb_settings.py", line 906, in __getitem__
+    if k in props:
+  File "/home/tdk/anaconda3/envs/mlflow-dcab57294d4c8d8af89cb670ca7f21a98adaaf45/lib/python3.8/site-packages/wandb/sdk/wandb_settings.py", line 881, in <genexpr>
+    return (k for k, v in vars(cls).items() if isinstance(v, property))
+KeyboardInterrupt
