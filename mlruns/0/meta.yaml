@@ -1,0 +1,4 @@
+artifact_location: file:///home/tdk/codes/courses/mlops_udacity/course_2/udacity_pipeline_exercise_14/genre_classification/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: Default

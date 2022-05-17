@@ -1,0 +1,11 @@
+2022-05-17 21:12:28,408 Downloading and reading artifact
+2022-05-17 21:12:34,367 Splitting data into train, val and test
+2022-05-17 21:12:34,408 Uploading the train dataset to /home/tdk/codes/courses/mlops_udacity/course_2/udacity_pipeline_exercise_14/genre_classification/segregate/train_test_split_train.csv
+Traceback (most recent call last):
+  File "run.py", line 122, in <module>
+    go(args)
+  File "run.py", line 54, in go
+    artifact = wandb.Artifact(
+  File "/home/tdk/anaconda3/envs/mlflow-2f145eba00834acf5a8352c413d14997e544f6bf/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 104, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: "/home/tdk/codes/courses/mlops_udacity/course_2/udacity_pipeline_exercise_14/genre_classification/segregate/train_test_split_train.csv"

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tdk/codes/courses/mlops_udacity/course_2/udacity_pipeline_exercise_14/genre_classification/mlruns/0/c087ad3cc2a04ffda7c69e9ea5fb2878/artifacts
+end_time: 1652751666113
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: c087ad3cc2a04ffda7c69e9ea5fb2878
+run_uuid: c087ad3cc2a04ffda7c69e9ea5fb2878
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1652751402386
+status: 3
+tags: []
+user_id: tdk

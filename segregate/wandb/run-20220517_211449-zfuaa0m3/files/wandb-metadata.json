@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.13.0-40-generic-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-17T20:14:53.723339",
+    "startedAt": "2022-05-17T20:14:49.504933",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "train_test_split",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/KaushalTak/genre_classification.git",
+        "commit": "b3120cd55c89c97fe0fc4b9537f55c8c383e4e4f"
+    },
+    "email": "kaushaltak.iitkgp@gmail.com",
+    "root": "/home/tdk/codes/courses/mlops_udacity/course_2/udacity_pipeline_exercise_14/genre_classification",
+    "host": "tdk-TUF-Gaming-FX505GT-FX505GT",
+    "username": "tdk",
+    "executable": "/home/tdk/anaconda3/envs/mlflow-2f145eba00834acf5a8352c413d14997e544f6bf/bin/python"
+}
